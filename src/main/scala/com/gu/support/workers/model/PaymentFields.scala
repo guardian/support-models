@@ -6,8 +6,6 @@ case class PayPalPaymentFields(baid: String) extends PaymentFields
 
 case class StripePaymentFields(stripeToken: String) extends PaymentFields
 
-
-
 case class DirectDebitPaymentFields(
   accountHolderName: String,
   sortCode: String,
